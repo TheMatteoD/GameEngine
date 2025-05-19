@@ -1,0 +1,28 @@
+# Build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/GameEngine
+cmake_install.cmake
+
+# Compiled object files
+*.o
+*.obj
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editor/IDE files
+.vscode/
+*.swp
+*~
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Misc
+*.DS_Store
