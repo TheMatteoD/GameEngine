@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(GameEngine LANGUAGES CXX)
+project(GameEngine LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Include all source files
 file(GLOB_RECURSE SRC_FILES
     src/*.cpp
+    vendor/glad/src/glad.c
 )
 
 add_executable(GameEngine ${SRC_FILES})
